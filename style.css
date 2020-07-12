@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .body{
+    background-image: url(bg3.png);
+    height: 100%;
+    background-position: left; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+
+.topnav{
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.topnav a:hover {
+    color: #65b0c7;
+  }
+
+  .table{
+      width: 100%;
+      padding-top: 40px;
+      padding-bottom: 90px;
+  }
+
+  .td1{
+    width: 5%;
+  }
+
+  .td2{
+    width: 45%;
+}
+
+.td3{
+    width: 50%;
+}
+
+.mini{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+.chernobyl{
+    font-family: Impact;
+    font-size: 140px;
+    color: white;
+}
+
+.isi{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    color: white;
+    text-align: justify;
+}
+
+.watch{
+    background:  transparent;
+    height:  40px;
+    border:  2px solid white;
+    display:  inline-block;
+    float:  none;
+    text-align:  center;
+    width:  150px;
+    padding:  0px!important;
+    font-size:  20px;
+    font-family: calibri;
+    font-weight: bolder;
+    color:  #fff;
+    border-radius: 5em;
+    opacity: 80%;
+    cursor: pointer;
+    margin-left: 60px;
+}
+
+.watch:hover{
+    opacity: 80%;
+    background: white;
+    color: darkcyan;
+    cursor: pointer;
+}
+
+.imdb{
+    background:  transparent;
+    height:  40px;
+    border:  2px solid white;
+    display:  inline-block;
+    float:  none;
+    text-align:  center;
+    width:  150px;
+    padding:  0px!important;
+    font-size:  20px;
+    font-family: calibri;
+    font-weight: bolder;
+    color:  #fff;
+    border-radius: 5em;
+    opacity: 80%;
+    margin-left: 70px;
+}
+
+.footer{
+    padding-bottom: 2px;
+    padding-left: 30px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width: 40%;
+    text-align: left;
+}
+
+.line{
+    border: 1px solid white;
+    text-align: left;
+    margin-left: 0;
+    width: 55%;
+}
